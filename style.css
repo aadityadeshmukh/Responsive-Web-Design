@@ -8,6 +8,12 @@
 [class*="col-"]{
   width:100%;
 }
+@media only screen and (max-width:500px)
+{
+  [class*="col-"]{
+    display: none;
+  }
+}
 @media only screen and (min-width: 600px)
 {
 .col-s-1{width:8.33%;}
